@@ -1,0 +1,23 @@
+h1{
+    color: darkviolet;
+    background-color: #000000;
+}
+.Mark02{
+    color: #0100ff;
+}
+#Mark01{
+    color: #69ff00;
+    background-color: #898989;
+
+
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
