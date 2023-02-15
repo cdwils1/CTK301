@@ -1,0 +1,44 @@
+.Top{
+    background-color:mediumpurple;
+}
+#h1{
+    color: white;
+   
+}
+a{
+    color: green;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.span1{
+    color:orange;
+}
+
+#h2{
+    color: blue;
+}
+
+#h3{
+    background-color: yellow;
+}
+.Text1{
+    color:red;
+}
+#h4{
+    color:yellow;
+    background-color: green;
+}
+.Text2{
+    background-color: palegreen;
+}
+
+.Bottom{
+    background-color: yellow;
+}
+#h5{
+    color:red;
+}
