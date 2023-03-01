@@ -1,0 +1,41 @@
+.words {
+    font-family: sans-serif;
+    
+}
+.border{
+    border: 10px;
+    border-style:solid;
+    border-color: black;
+}
+
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+h1{
+    color:orange;
+    font-style:italic;
+    font-weight: normal;
+}
+h2{
+    color:orange;
+    font-style:italic;
+    font-weight: normal;
+}
+h3{
+    color:orange;
+    font-style:italic;
+    font-weight: normal;
+}
+h4{
+    color:orange;
+    font-style:italic;
+    font-weight: normal;
+}
+body{
+    background-image: url(waterfall.webp);
+    
+}
