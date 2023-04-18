@@ -1,0 +1,108 @@
+body{
+    background-color:white;
+}
+
+
+#wrapper {
+    width: 960px;
+    border: 4px solid #003399;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+   
+}
+header {
+    grid-column: span 12;
+    
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+
+}
+nav {
+    grid-column: span 12;
+    font-weight: normal;
+    font-family: 'Tilt Prism', cursive;
+
+    font-style: normal;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+nav ul {
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+nav li {
+    font-weight: bold;
+    color: black;
+    background-color: blueviolet;
+    width: 313px;
+    height: 45px;
+    display: inline-block;
+    box-sizing:border-box;
+    line-height: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #999;
+}
+
+nav li :hover {
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #999;
+}
+
+nav li a {
+    color:black;
+    display: block;
+    text-decoration: none;
+    padding-left: 1em;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #999;
+    transition: background-color .5s, width 1.0s, color 1.0s;
+
+}
+
+#Photos{
+    grid-column-start: span 6;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#Photos img{
+    width: 100%;
+}
+#gridBottom {
+    grid-column-start: span 12;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+main h2{
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Tilt Prism', cursive;
+
+}
+
+
+footer {
+    grid-column: span 12;
+    font-weight: normal;
+    font-family: Helvetica;
+    font-style: normal;
+    background-color:black;
+    border-top: 3px solid #003399;
+    color: white;
+}
